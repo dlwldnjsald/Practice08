@@ -4,7 +4,7 @@ public class LastNumberApp {
 
 	public static void main(String[] args) {
 
-		// 수정하지 마세요//
+		// 수정하지 마세요///
 		lastValue();
 	}
 	
