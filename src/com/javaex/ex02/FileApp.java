@@ -8,13 +8,34 @@ public class FileApp {
 
 		// try~catch문을 사용하여 에러를 수정하세요
 		fileRead();
+		
+		try {
+			String result = null;
+			
+			} catch (IOException e) {
+				
+				e.printStackTrace();
+			} 
+		System.out.println("파일이 없습니다.");
 
 	}
 
 	// 수정하지 마세요
 	public static void fileRead() throws IOException{
 		throw new IOException(); // 강제로 예외 발생
+	
 	}
+	
 }
 
 
+
+	
+	
+	
+	
+	
+	
+	
+	
+}
