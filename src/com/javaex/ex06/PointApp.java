@@ -9,14 +9,14 @@ public class PointApp {
 		Point p3 = new Point(5, 3);
 		Point p4 = p1;
 		
-		System.out.println(p1 == p2);
-		System.out.println(p2 == p3);
-		System.out.println(p3 == p4);
-		System.out.println(p4 == p1);		
-		System.out.println(p1.equals(p2));
-		System.out.println(p4.equals(p1));
+		System.out.println(p1 == p2);//false //==는 참조주소비교
+		System.out.println(p2 == p3);//false
+		System.out.println(p3 == p4);//false
+		System.out.println(p4 == p1);//true		
+		System.out.println(p1.equals(p2));// point필드 내에 비교 동등성을 비교하는 코드를 세팅하지 않았으므로 F나올것
+		System.out.println(p4.equals(p1));//true 
 	}
 
 }
 
-
+//

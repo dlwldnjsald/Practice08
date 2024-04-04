@@ -19,4 +19,10 @@ public class PointApp {
 
 }
 
+//초기결과값
+//false->true로 바꾸기 미션
+//false
+//false
+//true
+
 
