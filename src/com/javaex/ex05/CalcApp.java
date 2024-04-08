@@ -21,14 +21,14 @@ public class CalcApp {
     		String strLine = scanner.nextLine();
     		
     		//라인이 /q이면 종료
-    		if (strLine.equals("/q")) {
+    		if (strLine.equals("/q")) {    // /q는 말하자면 종료버튼을 세팅해주는것
     			System.out.println("종료합니다.");
-    			break;
+    			break;  // 반복문 탈출하고싶을때
     		}
-    	
-    		//분할( split) : "1+ 2" -> { "1", "2", "3"}
-    		String[]data = strLine.split(" ");
-    	
+    		
+    		
+    		//분할( split) : "1 + 2" -> { "1", "+", "2"}
+    		String[] data = strLine.split(" ");		 
     	
     		int leftNum = Integer.parseInt(data[0]);
     		String operator = data[1];
